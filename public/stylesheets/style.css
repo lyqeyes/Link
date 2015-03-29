@@ -1,0 +1,66 @@
+body {
+  padding: 20px;
+  font: 12px "微软雅黑", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#room {
+  background-color: #ddd;
+  margin-bottom: 1em;
+}
+
+#messages {
+  float: left;
+  width: 690px;
+  height: 250px;
+  overflow: auto;
+  background-color: #eee;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+#help {
+  float: left;
+  width: 200px;
+  height: 400px;
+  overflow: auto;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
+
+#room-list {
+  float: right;
+  width: 100px;
+  height: 200px;
+  overflow: auto;
+}
+
+#room-list div {
+  border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover {
+  background-color: #ddd;
+}
+
+#send-message {
+  width: 680px;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+
+.title{
+  font-size: 14px;
+  font-weight: bolder;
+  color: blue;
+}

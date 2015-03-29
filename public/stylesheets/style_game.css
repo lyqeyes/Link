@@ -1,0 +1,25 @@
+/**
+* 连连看
+* Author: http://www.zdyi.com
+*
+*/
+
+#main table, #main_2 table {border:1px solid #f0f0f0;margin:10px auto;border-collapse:collapse;}
+#main table td, #main_2 table td {width:36px;height:36px;border:1px solid #f0f0f0;border-collapse:collapse;text-align:center;padding:2px;}
+#main table td img,#main_2 table td img {cursor:pointer;}
+
+#main_2{
+    opacity: 0.5;
+}
+
+.count{
+    color:#00B7FF;
+    font-size: 20px;
+    width: :100%;
+    text-align: center;
+    margin-top: 2em;
+}
+.count span{
+    color: red;
+    font-size: 20px;
+}
